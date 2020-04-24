@@ -1,0 +1,42 @@
+6
+2 1
+5 1
+6 1
+1 2
+3 2
+4 3
+
+
+
+
+
+// if (n<=20) {
+// 		res=n-1;
+// 		Try(1);
+// 		cout<<res;
+// 		return 0;
+// 	}
+
+// void Check() {
+// 	int tmp=0; bool ok=true;
+// 	t.clear();
+// 	for (int i=1;i<=n;i++)
+// 	if (x[i]) t.push_back(a[i]);
+// 	else tmp++;
+// 	for (int i=0;i<t.size();i++)
+// 	for (int j=i+1;j<t.size();i++) {
+// 		if (t[i].l==t[j].l || t[i].r==t[j].r) continue;
+// 		if (t[i].r<=t[j].l) continue;
+// 		if (t[i].r<=t[j].r) continue;
+// 		ok=false;
+// 		break;
+// 	}
+// 	if (ok) res=min(res,tmp);
+// }
+// void Try(int i) {
+// 	for (int j=0;j<=1;j++) {
+// 		x[i]=j;
+// 		if (i==n) Check();
+// 		else Try(i+1);
+// 	}
+// }
